@@ -42,6 +42,6 @@ if __name__ == "__main__":
     if len(sys.argv) == 3:
         run(sys.argv[1], int(sys.argv[2]))
     elif len(sys.argv) == 2:
-        run("34.85.88.229", int(sys.argv[1]))
+        run("34.92.107.84", int(sys.argv[1]))
     else:
-        run("34.85.88.229", 9090)
+        run("34.92.107.84", 9090)
